@@ -1,0 +1,37 @@
+/* ~~~~~~~~~~~~~~ */
+/* color variables */
+/* ~~~~~~~~~~~~~~ */
+:root {
+  --rainbow: linear-gradient(-45deg, red, orange, yellow, green, blue, indigo, violet);
+  /* noirish tones */
+  /* --primaryColor: #444444;
+  --secondaryColor: #ffdd67;
+  --tertiaryColor: #535945; */
+  /* jazz tones */
+  /* --primaryColor: #2a7e90;
+  --secondaryColor: #165120;
+  --tertiaryColor: #031138;
+  --quaternary: #013c40; */
+  /* autumn in vermont */
+  --primaryColor: #1e434c;
+  --secondaryColor: #c99e10;
+  --tertiaryColor: #9b4f0f;
+  --quaternary: #8d230f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
